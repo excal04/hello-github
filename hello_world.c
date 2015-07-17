@@ -31,8 +31,8 @@ int main(int argc, char *argv[]) {
             printf(ANSI_COLOR_CYAN);
 
     }
-    
+
     printf("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n");
-    
+
     return 0;
 }
