@@ -16,7 +16,7 @@
 
 int main(int argc, char *argv[]) {
     int i;
-    printf("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n");
+    printf("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n\n");
     printf("Hello GitHub!\n");
 
     srand(time(NULL));
@@ -32,6 +32,7 @@ int main(int argc, char *argv[]) {
 
     }
 
+    printf("%s", ANSI_COLOR_RESET);   /* another way to write it */
     printf("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n");
 
     return 0;
