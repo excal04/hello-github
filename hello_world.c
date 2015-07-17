@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[]) {
     int i;
-
+    printf("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n");
     printf("Hello GitHub!\n");
 
     srand(time(NULL));
@@ -17,6 +17,8 @@ int main(int argc, char *argv[]) {
     for (i = 0; i < meowLength; i++) {
         printf("%s", (i == meowLength - 1 ? "oww!\n" : "o"));
     }
-
+    
+    printf("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n");
+    
     return 0;
 }
